@@ -1,0 +1,4 @@
+//include ':wannatalk'
+include ':wannatalksdk'
+include ':app'
+
