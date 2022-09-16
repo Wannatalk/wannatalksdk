@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
     void loadOrganizationProfile() {
 
 //        Load organization profile
-        WTSDKManager.LoadOrganizationActivity(this, true, new IWTCompletion() {
+        WTSDKManager.LoadOrganizationActivity(this, true, 0, new IWTCompletion() {
             @Override
             public void onCompletion(boolean b, String s) {
 
